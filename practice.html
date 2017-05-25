@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>Practice</title>
+	</head>
+<body>
+	<div>
+		<p>あなたの好きな色は？</p>
+		<input type="button" value="赤" onclick="alert('blue!')">
+		<input type="button" value="青" onclick="alert('red!')"">
+		<input type="button" value="黄" onclick="alert('yellow')"">
+	</div>
+	<div>
+		<p>あなたの好きな果物は？</p>
+		<input type="button" value="りんご" onclick="document.getElementById('fruit').textContent='Appele';">
+		<input type="button" value="みかん" onclick="document.getElementById('fruit').textContent='Orange';">
+		<input type="button" value="ばなな" onclick="document.getElementById('fruit').textContent='Banana';"> 
+		<p id="fruit"></p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+	<title>sample</title>
+</head>
+<body>
+JavaScript
+	<div>
+			<!--onclock(click時にjsが発動)の中にalert分が書ける--> 
+		<input type="button" value="アラート" onclick="alert('Hello,Cebu')">
+	</div>
+			<!-- 以下２行を追加 -->
+	<p id="change">ここを書き換えます</p>
+	<!-- <input type="button" value="書き換え" onclick="document.getElementById('change').textContent='書き換えました！';"> -->
+ <input type="button" value="書き換え" onclick="rewrite_text();">
+ <script type="text/javascript">
+
+ 	 // console.log('Hello,Cebuuu!');
+ 	 // alert('Hello, CEBU');
+
+
+ </script>
+ <!-- 外部ファイルを読み込んでいる。 -->
+ <script src="script.js"></script> 
+</body>
+</html>
